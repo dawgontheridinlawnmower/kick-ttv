@@ -14,8 +14,10 @@ export default defineConfig({
 				icon: "https://www.google.com/s2/favicons?sz=64&domain=twitch.tv",
 				namespace: "dawgonntheridinlawnmower",
 				match: ["*://twitch.tv/*", "*://www.twitch.tv/*"],
-				updateURL: "",
-				downloadURL: "",
+				updateURL:
+					"https://github.com/dawgonntheridinlawnmower/kick-ttv/releases/latest/download/kickttv.user.js",
+				downloadURL:
+					"https://github.com/dawgonntheridinlawnmower/kick-ttv/releases/latest/download/kickttv.user.js",
 			},
 		}),
 	],
