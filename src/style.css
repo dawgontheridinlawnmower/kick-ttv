@@ -1,0 +1,21 @@
+#dawg-load-kick {
+	display: flex;
+}
+
+#dawg-container {
+	position: relative;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#dawg-live {
+	display: none;
+	pointer-events: none;
+	position: absolute;
+	right: -4px;
+	top: -4px;
+}
+
+#dawg-container.live #dawg-live {
+	display: block;
+}

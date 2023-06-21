@@ -1,0 +1,22 @@
+{
+	"name": "kickttv",
+	"private": true,
+	"version": "2.0.0",
+	"description": "This script lets you watch Kick's live streams on Twitch",
+	"author": "Cássio A. Maciel",
+	"repository": {
+		"url": "https://github.com/dawgonntheridinlawnmower/kick-ttv"
+	},
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc && vite build",
+		"preview": "vite preview"
+	},
+	"devDependencies": {
+		"amazon-ivs-player": "^1.19.0",
+		"typescript": "^5.0.4",
+		"vite": "^4.3.5",
+		"vite-plugin-monkey": "^3.2.0"
+	}
+}
