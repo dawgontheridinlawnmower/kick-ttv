@@ -1,7 +1,7 @@
 {
 	"name": "kickttv",
 	"private": true,
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"description": "This script lets you watch Kick's live streams on Twitch",
 	"author": "Cássio A. Maciel",
 	"repository": {
