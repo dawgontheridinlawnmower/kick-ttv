@@ -4,7 +4,7 @@ import monkey from "vite-plugin-monkey";
 // https://vitejs.dev/config/
 export default defineConfig({
 	esbuild: {
-		drop: process.env.development == "production" ? ["console"] : [],
+		drop: process.env.NODE_ENV == "production" ? ["console"] : [],
 	},
 	plugins: [
 		monkey({
