@@ -85,7 +85,7 @@ export class KickTTV {
 		if (this.updateChannelInterval) clearInterval(this.updateChannelInterval);
 
 		this.updateChannelInterval = setInterval(
-			this.updateChannel,
+			this.updateChannel.bind(this),
 			60000 * (this.channel?.livestream?.is_live ? 10 : 1)
 		);
 	}
